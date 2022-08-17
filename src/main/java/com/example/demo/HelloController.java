@@ -15,4 +15,8 @@ public class HelloController {
     @GetMapping("/hello")
     public String HelloWorld(){
         return "Hello World! ";    }
+
+    @GetMapping("/")
+    public String landing(){
+        return "This is the landing ";    }
 }
